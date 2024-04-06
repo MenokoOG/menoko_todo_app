@@ -1,0 +1,100 @@
+/* index.css */
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern and friendly font */
+    background-color: #F0F8FF; /* Light azure background for a calm and open feel */
+    color: #2F4F4F; /* Dark Slate Gray for better readability */
+    line-height: 1.6; /* Improve readability */
+    text-align: center;
+  }
+  
+  .container {
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: #423f3f; /* Pure white for contrast */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 15px; /* Rounded edges for a softer look */
+  }
+  
+  /* Grid Layout */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .card {
+    background-color: #FFFAFA; /* Snow color for card background to make it stand out */
+    border-radius: 15px; /* Rounded corners for a friendly feel */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* More pronounced shadow for depth */
+    padding: 30px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift card on hover for interactivity */
+  }
+  
+  /* Form Styles */
+  .form input,
+  .edit-form input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #FFD700; /* Gold border for emphasis */
+    border-radius: 10px; /* Rounded edges for inputs */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inset shadow for depth */
+  }
+  
+  .form button,
+  .edit-form button {
+    background-color: #32CD32; /* Lime Green for buttons to stand out */
+    color: #FFFFFF; /* White text for contrast */
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px; /* Rounded edges for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+  }
+  
+  .form button:hover,
+  .edit-form button:hover {
+    background-color: #e0a709; /* Forest Green for hover state */
+    transform: scale(1.05); /* Slightly enlarge buttons on hover */
+  }
+  
+  /* Typography */
+  h2 {
+    color: #11cee7; /* Royal Blue for headings to add vibrancy */
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  p {
+    color: #696969; /* Dim Gray for paragraph text for better readability */
+    font-size: 18px;
+  }
+  
+  /* Buttons inside card */
+  .card button {
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: #32CD32; /* Lime Green for buttons to stand out */
+    color: #FFFFFF; /* White text for contrast */
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px; /* Rounded edges for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+  .card button:hover {
+    background-color: #e0a709; /* Forest Green for hover state */
+    transform: scale(1.05); /* Slightly enlarge buttons on hover */
+  }
+  
